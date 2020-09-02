@@ -1,0 +1,136 @@
+.vacation{
+    background-color: #ffffff;
+    max-width: 265px;
+    min-width: 265px;
+    flex: 1 1 0px;
+    border-radius: 1.5em;
+    margin: 1rem;
+    -webkit-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 6px 2px rgba(0,0,0,0.2);
+    transition: box-shadow 0.4s;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.vacation:hover{
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+}
+
+.vacation-img{
+    transition: box-shadow 0.4s;
+    border-radius: 1.5em 1.5em 0 0;
+    height: 158px;
+    overflow: hidden;
+}
+
+.vacation:hover .vacation-img{
+    -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.4);
+}
+
+.vacation-img img{
+    border-radius: 0.8rem 0.8rem 0 0;
+    width: 100%;
+}
+
+.details{
+    padding: 0 1.5rem;
+}
+
+.description{
+    padding-top: 1.5rem;
+}
+.destination{
+    font-size: 2.1em;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.slogan{
+    line-height: 1.2em;
+    margin-top: 0.5em;
+}
+
+.date{
+    color: var(--color1);
+    line-height: 1.2em;
+    font-weight: 500;
+}
+
+.row-between{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.price{
+    font-weight: 900;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-bottom: 0.6em;
+}
+
+.followers{
+    margin-top: 0.5em;
+    color: var(--color1);
+    font-weight: 400;
+}
+
+.vacation-buttons{
+    margin: 1rem;
+    margin-top: auto;
+}
+
+.follow{
+    border: 1px solid var(--color1);
+    background-color: transparent;
+    padding: 0.4em 1em;
+    border-radius: 1.5em;
+    font-size: 1em;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.follow:hover{
+    background-color: var(--color1-light);
+}
+
+.following{
+    background-color: var(--color1);
+    font-weight: 400;
+}
+
+.following:hover{
+    background-color: transparent;
+}
+
+.more{
+    background-color: #f0ebeb;
+    border: none;
+    transition: 0.4s;
+    padding: 0.4em 1em;
+    border-radius: 1.5em;
+    font-size: 1em;
+    outline: none;
+}
+
+.delete-vacation-button{
+    border: 1px solid red;
+}
+
+.delete-vacation-button:hover{
+    background-color: red;
+}
+
+
+.more:hover{
+    background-color: #d4d0d0;
+    /* border: 1px solid #d4d0d0; */
+}

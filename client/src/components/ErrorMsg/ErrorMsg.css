@@ -1,0 +1,60 @@
+.error-msg-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.error-msg{
+    background-color: #e07676;
+    color: rgb(105, 10, 10);
+    padding: 5px 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    position: fixed;
+    top: 8vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    z-index: 2;
+}
+
+.error-msg-success{
+    background-color: #a7e98d;
+    color: #0c570a;
+}
+
+.close-error{
+	animation: slide-dim-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;    
+}
+
+.closePopup{
+  width: 1.8em;
+  height: 1.8em;
+  margin-right: 0.6em;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.2em 0.2em;
+  border-radius: 1.5em;
+  font-size: 1em;
+  outline: none;
+  transition: 0.4s;
+  font-weight: 600;
+}
+
+.closePopup:hover{
+  background-color: var(--color1-light);
+}
+
+@keyframes slide-dim-out-top {
+    0% {
+        transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+        transform: translateY(-6vh);
+      opacity: 0;
+    }
+  }
+  

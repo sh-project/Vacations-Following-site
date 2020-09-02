@@ -1,0 +1,26 @@
+.light-button{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: block;
+    margin-top: 0.5rem;
+    padding: 0.3rem 1rem;
+    border: solid 2px var(--color1);
+    border-radius: 5rem;
+    transition: 0.4s;
+}
+
+.light-button:hover{
+    background-color: var(--color1-light);
+    -webkit-box-shadow: 7px 9px 13px -8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 7px 9px 13px -8px rgba(0,0,0,0.3);
+    box-shadow: 5px 7px 13px -3px rgba(0,0,0,0.4);
+}
+
+.forgot{
+    font-size: 0.8rem;
+    text-align: left;
+    margin-bottom: 2rem;
+}

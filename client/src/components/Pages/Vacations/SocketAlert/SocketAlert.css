@@ -1,0 +1,33 @@
+.socket-alert-wrapper{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.socket-alert{
+    background-color: var(--color1);
+    padding: 10px 30px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+    position: fixed;
+    top: 11vh;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    z-index: 2;
+    animation: slide-in-fwd-top 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+@keyframes slide-in-fwd-top {
+  0% {
+    transform: translateZ(-200px) translateY(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+  

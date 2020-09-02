@@ -1,0 +1,8 @@
+.form-error{
+    background-color: #e98d8d;
+    padding: 5px;
+    margin: 5px auto 0;
+    width: 95%;
+    font-size: 0.9rem;
+    text-align: left;
+}

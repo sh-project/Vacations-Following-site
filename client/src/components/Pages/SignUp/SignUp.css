@@ -1,0 +1,10 @@
+.sign-container{
+    height: 96vh;
+    background-image: url('/images/backgrounds/sign.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
